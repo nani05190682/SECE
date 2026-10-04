@@ -1,6 +1,7 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/94226962-24c2-4839-a6ed-a6c98f1335ee" />
 
-Absolutely. The architecture in the image is a **production-oriented AWS architecture for a LinkedIn-like social networking application running on Kubernetes (Amazon EKS)**.
+
+The architecture in the image is a **production-oriented AWS architecture for a LinkedIn-like social networking application running on Kubernetes (Amazon EKS)**.
 
 The key idea is:
 
