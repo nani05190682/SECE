@@ -71,4 +71,12 @@ Centralized Routing: The TGW simplifies routing tables. VPC-A's route table poin
 
 
 
-<img width="2752" height="1536" alt="Gemini_Generated_Image_1ppnm1ppnm1ppnm1" src="https://github.com/user-attachments/assets/9a161b1e-f243-44d5-b5f7-ff923d6e230d" />
+
+
+
+
+
+
+<img width="2816" height="1536" alt="Gemini_Generated_Image_gcp6d2gcp6d2gcp6" src="https://github.com/user-attachments/assets/7f7b64a8-480f-4ff4-9cf1-96134f2fd8bf" />
+
+
