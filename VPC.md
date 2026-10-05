@@ -28,7 +28,7 @@ Crucially, replies from the internet are allowed back in, but unsolicited inboun
 
 
 
-Interview Question 2: Secure Database Connectivity (VPC Endpoints)
+**Interview Question 2: Secure Database Connectivity (VPC Endpoints)**
 Question: "Your security team mandates that your application servers in the private subnet must interact with an Amazon S3 bucket and an Amazon DynamoDB table. However, they strictly forbid any traffic, including traffic to AWS services, from traversing the public internet. How do you satisfy this requirement within the VPC?"
 
 Solution & Design Rationale:
@@ -49,10 +49,11 @@ If the requirement was to access a service like Systems Manager (SSM) or SQS pri
 
 This creates an Elastic Network Interface (ENI) with a private IP address directly inside your private subnet. Instances simply call that private IP, and the traffic is routed privately to the service.
 
-Interview Question 3: Expanding Global Footprint (Transit Gateway)
+**Interview Question 3: Expanding Global Footprint (Transit Gateway)**
+
 Question: "Your company is growing. You currently have a VPC in us-east-1 (VPC-A) and a new VPC in us-west-1 (VPC-B). Due to regulatory compliance, you need VPC-A to access an internal database in VPC-B. You also need both VPCs to connect back to an on-premises data center via a Direct Connect connection located in us-east-1. How do you design this connectivity at scale?"
 
-Solution & Design Rationale:
+**Solution & Design Rationale:**
 
 As the network grows, a point-to-point VPN mesh becomes unmanageable. The modern AWS solution for centralized network connectivity is the AWS Transit Gateway (TGW).
 
