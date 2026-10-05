@@ -1,6 +1,8 @@
 
 **1: The Three-Tier Public/Private Architecture**
-Question: "Design a secure network infrastructure for a web application. The architecture requires a public-facing web tier, a private application tier, and a private database tier. How do you ensure high availability and security, and specifically, how does the private application tier access the internet for software updates without exposing it to inbound traffic?"
+
+
+**Question1**: "Design a secure network infrastructure for a web application. The architecture requires a public-facing web tier, a private application tier, and a private database tier. How do you ensure high availability and security, and specifically, how does the private application tier access the internet for software updates without exposing it to inbound traffic?"
 
 **Solution & Design Rationale:**
 
